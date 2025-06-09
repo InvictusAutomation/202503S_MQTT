@@ -4,7 +4,9 @@ import time
 
 #1 assign a broker
 # mqtt_broker='mqtt.eclipseprojects.io'   
-mqtt_broker = "localhost"
+# mqtt_broker = "localhost"
+mqtt_broker = "192.168.1.101"
+
 port = 1883
 topic = "home/sensor/temperature"
 QoS = 1
